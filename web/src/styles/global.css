@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+:root {
+  --font-stack: "DM Sans", sans-serif;
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(0, 0%, 87%);
+}
+
+body {
+  font-family: var(--font-stack);
+}

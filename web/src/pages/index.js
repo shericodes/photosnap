@@ -1,10 +1,8 @@
-import * as React from "react"
+import * as React from "react";
 
 // markup
 const IndexPage = () => {
-  return (
-    <h1>Photosnap</h1>
-  )
-}
+  return <></>;
+};
 
-export default IndexPage
+export default IndexPage;
