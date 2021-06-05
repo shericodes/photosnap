@@ -8,6 +8,7 @@ import story from "./documents/story";
 import author from "./documents/author";
 import feature from "./documents/feature";
 import productPackage from "./documents/productPackage";
+import cta from "./objects/cta";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -18,6 +19,7 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Objects */
     featureHero,
+    cta,
 
     /* Documents*/
     story,
