@@ -9,6 +9,7 @@ import author from "./documents/author";
 import feature from "./documents/feature";
 import productPackage from "./documents/productPackage";
 import cta from "./objects/cta";
+import page from "./documents/page";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -26,5 +27,6 @@ export default createSchema({
     author,
     feature,
     productPackage,
+    page,
   ]),
 });
